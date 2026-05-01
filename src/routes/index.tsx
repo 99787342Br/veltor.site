@@ -2,13 +2,16 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import { Nav } from "@/components/veltor/Nav";
 import { Hero } from "@/components/veltor/Hero";
+import { TrustBar } from "@/components/veltor/TrustBar";
 import { Positioning } from "@/components/veltor/Positioning";
 import { Philosophy } from "@/components/veltor/Philosophy";
 import { TechAuthority } from "@/components/veltor/TechAuthority";
 import { Services } from "@/components/veltor/Services";
+import { Process } from "@/components/veltor/Process";
 import { Benefits } from "@/components/veltor/Benefits";
 import { Pricing } from "@/components/veltor/Pricing";
 import { Portfolio } from "@/components/veltor/Portfolio";
+import { Testimonials } from "@/components/veltor/Testimonials";
 import { FinalCTA } from "@/components/veltor/FinalCTA";
 import { Footer } from "@/components/veltor/Footer";
 
@@ -46,13 +49,16 @@ function Index() {
     <main className="bg-veltor-black">
       <Nav />
       <Hero />
+      <TrustBar />
       <Positioning />
       <Philosophy />
       <TechAuthority />
       <Services />
+      <Process />
       <Benefits />
-      <Pricing />
       <Portfolio />
+      <Testimonials />
+      <Pricing />
       <FinalCTA />
       <Footer />
     </main>
