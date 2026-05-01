@@ -1,4 +1,4 @@
-import heroMacbook from "@/assets/hero-macbook.jpg";
+import heroMacbook from "@/assets/veltor-hero-laptop.jpg";
 
 const WHATSAPP_URL =
   "https://wa.me/5522981484193?text=Ol%C3%A1!%20Tenho%20interesse%20em%20um%20site%20profissional%20para%20minha%20empresa.";
