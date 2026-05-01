@@ -29,16 +29,22 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { title: "VELTOR — Criação de Sites Premium" },
+      {
+        name: "description",
+        content:
+          "VELTOR cria sites premium, rápidos e estratégicos para empresas que querem autoridade, credibilidade e conversão no digital.",
+      },
+      { name: "author", content: "VELTOR" },
+      { name: "theme-color", content: "#000000" },
     ],
     links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+      },
       {
         rel: "stylesheet",
         href: appCss,
