@@ -1,3 +1,5 @@
+import servicesHero from "@/assets/veltor-services-cards.jpg";
+
 const services = [
   {
     title: "Sites institucionais premium",
@@ -51,14 +53,26 @@ export function Services() {
   return (
     <section id="servicos" className="bg-veltor-white text-veltor-gray py-32 md:py-48">
       <div className="mx-auto max-w-7xl px-6 md:px-10">
-        <div className="max-w-3xl reveal">
-          <p className="veltor-eyebrow">Serviços</p>
-          <h2 className="veltor-display mt-6 text-5xl md:text-7xl">
-            O que entregamos.
-          </h2>
-          <p className="mt-6 text-lg text-veltor-muted max-w-xl">
-            Soluções digitais sob medida para marcas que valorizam design, performance e resultado.
-          </p>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-end">
+          <div className="lg:col-span-6 reveal">
+            <p className="veltor-eyebrow">Serviços</p>
+            <h2 className="veltor-display mt-6 text-5xl md:text-7xl">
+              O que entregamos.
+            </h2>
+            <p className="mt-6 text-lg text-veltor-muted max-w-xl">
+              Soluções digitais sob medida para marcas que valorizam design, performance e resultado.
+            </p>
+          </div>
+          <div className="lg:col-span-6 reveal">
+            <img
+              src={servicesHero}
+              alt="Cartões 3D representando serviços digitais da VELTOR"
+              width={1536}
+              height={1024}
+              loading="lazy"
+              className="w-full h-auto rounded-3xl select-none pointer-events-none"
+            />
+          </div>
         </div>
 
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-px bg-veltor-line">
