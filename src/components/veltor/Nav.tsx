@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const WHATSAPP_URL =
-  "https://wa.me/5522981484193?text=Ol%C3%A1!%20Tenho%20interesse%20em%20um%20site%20profissional%20para%20minha%20empresa.";
+  "https://wa.me/5522981484193?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20uma%20an%C3%A1lise%20estrat%C3%A9gica%20para%20minha%20empresa.";
 
 export function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -30,16 +30,17 @@ export function Nav() {
         <nav className="hidden md:flex items-center gap-9 text-[13px] text-veltor-white/80">
           <a href="#servicos" className="hover:text-veltor-white transition-colors">Serviços</a>
           <a href="#beneficios" className="hover:text-veltor-white transition-colors">Benefícios</a>
-          <a href="#investimento" className="hover:text-veltor-white transition-colors">Investimento</a>
+          <a href="#investimento" className="hover:text-veltor-white transition-colors">Projetos</a>
           <a href="#portfolio" className="hover:text-veltor-white transition-colors">Portfólio</a>
+          <a href="#depoimentos" className="hover:text-veltor-white transition-colors">Clientes</a>
         </nav>
         <a
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[13px] font-medium px-4 py-1.5 rounded-full bg-veltor-white text-veltor-black hover:opacity-90 transition-opacity"
+          className="veltor-btn-premium text-[13px] font-medium px-4 py-1.5 rounded-full bg-veltor-white text-veltor-black"
         >
-          Falar agora
+          Falar com Especialista
         </a>
       </div>
     </header>
