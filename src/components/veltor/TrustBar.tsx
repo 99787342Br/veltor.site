@@ -1,8 +1,8 @@
 const stats = [
-  { v: "+50", l: "Projetos entregues" },
-  { v: "100%", l: "Clientes satisfeitos" },
+  { v: "1:1", l: "Atendimento personalizado" },
+  { v: "100%", l: "Projetos sob medida" },
   { v: "24h", l: "Resposta consultiva" },
-  { v: "10+", l: "Setores atendidos" },
+  { v: "∞", l: "Foco em qualidade" },
 ];
 
 export function TrustBar() {
@@ -10,7 +10,7 @@ export function TrustBar() {
     <section className="bg-veltor-black text-veltor-white border-t border-veltor-line-dark py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <p className="veltor-eyebrow text-veltor-white/40 text-center reveal">
-          Marcas que confiam na VELTOR
+          Qualidade acima de quantidade
         </p>
         <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-px bg-veltor-line-dark">
           {stats.map((s, i) => (
