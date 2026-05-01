@@ -1,21 +1,21 @@
 const items = [
   {
     quote:
-      "A entrega da VELTOR mudou completamente a percepção da nossa marca. Hoje somos vistos como referência no nosso segmento.",
-    name: "Rafael Monteiro",
-    role: "CEO · Studio Arquitetura",
+      "Cada projeto recebe atenção exclusiva. Tratamos o seu site como se fosse o único da agenda.",
+    name: "Atendimento personalizado",
+    role: "Relação direta, sem intermediários",
   },
   {
     quote:
-      "Profissionalismo absoluto do briefing à entrega. O site ficou em outro nível — exatamente o posicionamento que buscávamos.",
-    name: "Carolina Vieira",
-    role: "Diretora · Vieira Advocacia",
+      "Design, código e estratégia construídos sob medida — nada de modelos prontos ou soluções genéricas.",
+    name: "Projetos sob medida",
+    role: "Cada detalhe pensado para a sua marca",
   },
   {
     quote:
-      "Em 30 dias triplicamos os contatos qualificados. O design transmite a autoridade que a nossa empresa precisava.",
-    name: "Lucas Andrade",
-    role: "Fundador · Andrade Consultoria",
+      "Construímos resultados com excelência desde o primeiro projeto. Qualidade acima de quantidade, sempre.",
+    name: "Foco total em qualidade",
+    role: "Padrão premium em cada entrega",
   },
 ];
 
@@ -27,11 +27,11 @@ export function Testimonials() {
     >
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="max-w-3xl reveal">
-          <p className="veltor-eyebrow">Clientes</p>
+          <p className="veltor-eyebrow">Compromisso</p>
           <h2 className="veltor-display mt-6 text-5xl md:text-7xl">
-            A palavra de quem
+            O padrão VELTOR
             <br />
-            <span className="text-veltor-muted">já evoluiu com a VELTOR.</span>
+            <span className="text-veltor-muted">em cada projeto.</span>
           </h2>
         </div>
 
