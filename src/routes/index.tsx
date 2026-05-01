@@ -4,6 +4,7 @@ import { Nav } from "@/components/veltor/Nav";
 import { Hero } from "@/components/veltor/Hero";
 import { Positioning } from "@/components/veltor/Positioning";
 import { Philosophy } from "@/components/veltor/Philosophy";
+import { TechAuthority } from "@/components/veltor/TechAuthority";
 import { Services } from "@/components/veltor/Services";
 import { Benefits } from "@/components/veltor/Benefits";
 import { Pricing } from "@/components/veltor/Pricing";
@@ -47,6 +48,7 @@ function Index() {
       <Hero />
       <Positioning />
       <Philosophy />
+      <TechAuthority />
       <Services />
       <Benefits />
       <Pricing />
